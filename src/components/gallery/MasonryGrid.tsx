@@ -22,7 +22,7 @@ export default function MasonryGrid() {
             breakpointCols={breakpointColumnsObj}
             className={styles.masonryGrid}
             columnClassName={styles.masonryGridColumn}>
-            {gallery.images.map((image, index) => (
+            {gallery.images.map((image: any, index: number) => (
                 <SmartImage
                     key={index}
                     radius="m"

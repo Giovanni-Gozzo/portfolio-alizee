@@ -6,7 +6,7 @@ const person = {
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
-    role: 'Étudiante Info-com',
+    role: 'Étudiante en communication',
     avatar: '/images/avatar.jpg',
     location: 'Europe/Paris',
     languages: ['Français', 'Espagnol', 'Anglais']  // optional: Leave the array empty if you don't want to display languages
@@ -35,7 +35,7 @@ const home = {
     label: 'Accueil',
     title: `Portfolio de ${person.name}`,
     description: `Site web de portfolio présentant mon profil d'${person.role}`,
-    headline: <>Étudiante Info-com / <br /> Future Chargée de Communication</>,
+    headline: <>Étudiante en communication / <br /> Future Chargée de Communication</>,
     subline: <>Je suis Alizée, une étudiante curieuse, dynamique et créative en dernière année de licence Information et Communication.<br /> À la recherche d'une alternance en communication pour la rentrée 2026, j'ai à cœur de participer activement aux projets et d'apporter des idées nouvelles au sein d'une équipe.</>
 }
 
@@ -57,7 +57,22 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Actuellement étudiante en dernière année de licence Information et Communication à l'Université Paul-Valéry Montpellier 3, j'intègre, pour la rentrée 2026, l'école de communication Sup de Com. De ce fait, je suis à la recherche d'une alternance en communication. Curieuse, dynamique et créative, j'ai à cœur de participer activement aux projets de communication et d'apporter des idées nouvelles au sein d'une équipe.</>
+        description: <>
+            <span>
+                <strong style={{ display: 'block', marginBottom: '4px' }}>Qui suis-je ?</strong>
+                <span style={{ fontSize: '1.1rem', fontWeight: '500', display: 'block', marginBottom: '8px', color: 'var(--neutral-weak)' }}>
+                    Future communicante & alternante passionnée
+                </span>
+                Dès la rentrée 2026, je rejoins les bancs de Sup de Com pour un cursus de deux ans. Pour accompagner cette formation, je suis à la recherche d'une opportunité en alternance dans le secteur de la communication et de l'événementiel, selon un rythme idéal de <strong>2 semaines en entreprise pour 1 semaine à l'école</strong>.
+            </span>
+            <span>
+                <strong style={{ display: 'block', marginBottom: '4px' }}>Ma vision & Ce que j'apporte</strong>
+                Curieuse de nature, dynamique et rigoureuse dans mon travail, je vois chaque projet comme un défi à relever en équipe. Intégrer votre structure, c'est pour moi l'opportunité de mettre mon énergie et ma créativité au service de vos ambitions, tout en apportant un regard neuf et des idées innovantes.
+            </span>
+            <span>
+                Prête à m'investir pleinement, collaborons pour faire rayonner vos prochains événements et campagnes !
+            </span>
+        </>
     },
     work: {
         display: true, // set to false to hide this section
@@ -77,7 +92,7 @@ const about = {
             {
                 company: 'Agence Attrape Rêves',
                 timeframe: 'janvier 2026 - février 2026',
-                role: 'Stagiaire',
+                role: 'Stagiaire Communication & Evènementiel',
                 achievements: [
                     <>Gestion de projets évènementiels</>,
                     <>Création de contenus Numériques</>,
@@ -110,7 +125,7 @@ const about = {
             },
             {
                 name: 'Université Paul Valéry Montpellier 3',
-                description: <>Licence Information - Communication (2023-2026).<br /> - Organisation d'un évènement (Loto caritatif).<br /> - Création d'une campagne de Pub.<br /> - Veille Marketing.<br /> - Création de contenus Numériques Prints (Flyer, Carte de visite, dépliant).</>,
+                description: <>Licence Information - Communication (2023-2026).</>,
             },
             {
                 name: 'Lycée Jean Vilar - Villeneuve',
@@ -129,7 +144,7 @@ const about = {
             },
             {
                 title: 'Outils de Création & Vidéo',
-                description: <>Utilisation avancée de Canva / Canva Pro et de CapCut pour la production de contenus numériques rapides et percutants.</>,
+                description: <>Utilisation avancée de Canva / Canva Pro, Mojo et de CapCut pour la production de contenus numériques rapides et percutants.</>,
                 images: []
             },
             {
@@ -154,10 +169,18 @@ const work = {
 }
 
 const gallery = {
-    label: 'Gallery',
-    title: 'Ma galerie',
-    description: `Une collection de créations par ${person.name}`,
-    images: []
+    label: 'Ma vie',
+    title: 'Ma vie',
+    description: `Un aperçu de la vie d'Alizée en dehors du travail et des cours`,
+    images: [
+        { src: '/images/gallery/ski.jpg', alt: 'Ski', orientation: 'vertical' },
+        { src: '/images/gallery/majorque-plage.jpg', alt: 'Majorque', orientation: 'vertical' },
+        { src: '/images/gallery/disneyland.jpg', alt: 'Disneyland', orientation: 'horizontal' },
+        { src: '/images/gallery/via-ferrata.jpg', alt: 'Via ferrata', orientation: 'vertical' },
+        { src: '/images/gallery/canyoning.jpg', alt: 'Canyoning', orientation: 'vertical' },
+        { src: '/images/gallery/avignon.jpg', alt: 'Festival d\'Avignon', orientation: 'vertical' },
+        { src: '/images/gallery/majorque-famille.jpg', alt: 'Majorque', orientation: 'horizontal' },
+    ]
 }
 
 export { person, social, newsletter, home, about, blog, work, gallery };
