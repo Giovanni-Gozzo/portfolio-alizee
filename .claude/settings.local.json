@@ -39,7 +39,8 @@
       "Bash(cp \"/Users/gmailgozzo/Downloads/IMG_1069.JPG\" /Users/gmailgozzo/WebstormProjects/portfolio-alizee/public/images/gallery/disneyland.jpg)",
       "Bash(cp \"/Users/gmailgozzo/Downloads/IMG_4845.JPG\" /Users/gmailgozzo/WebstormProjects/portfolio-alizee/public/images/projects/stage-attrape-reve/via-ferrata.jpg)",
       "Bash(cp \"/Users/gmailgozzo/Downloads/IMG_4845.JPG\" /Users/gmailgozzo/WebstormProjects/portfolio-alizee/public/images/gallery/via-ferrata.jpg)",
-      "Bash(cp \"/Users/gmailgozzo/Downloads/IMG_5073.JPG\" /Users/gmailgozzo/WebstormProjects/portfolio-alizee/public/images/gallery/canyoning.jpg)"
+      "Bash(cp \"/Users/gmailgozzo/Downloads/IMG_5073.JPG\" /Users/gmailgozzo/WebstormProjects/portfolio-alizee/public/images/gallery/canyoning.jpg)",
+      "Bash(ffmpeg -i /Users/gmailgozzo/WebstormProjects/portfolio-alizee/public/images/avatar.jpg -vf 'crop=min\\(iw\\\\,ih\\):min\\(iw\\\\,ih\\),scale=64:64' /tmp/favicon.png -y)"
     ]
   }
 }

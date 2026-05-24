@@ -18,7 +18,8 @@ import {
 	HiMiniGlobeAsiaAustralia,
 	HiEnvelope,
 	HiCalendarDays,
-	HiClipboard
+	HiClipboard,
+	HiDocumentArrowDown
 } from "react-icons/hi2";
 
 import {
@@ -63,5 +64,6 @@ export const iconLibrary: Record<string, IconType> = {
 	github: FaGithub,
 	linkedin: FaLinkedin,
 	x: FaXTwitter,
-	clipboard: HiClipboard
+	clipboard: HiClipboard,
+	document: HiDocumentArrowDown
 };
