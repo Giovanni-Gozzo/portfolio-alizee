@@ -129,7 +129,7 @@ const about = {
                 description: <>Licence Information - Communication (2023-2026).</>,
             },
             {
-                name: 'Lycée Jean Vilar - Villeneuve',
+                name: 'Lycée Jean Vilar - Villeneuve-lez-Avignon',
                 description: <>Baccalauréat général (2021-2022).</>,
             }
         ]
