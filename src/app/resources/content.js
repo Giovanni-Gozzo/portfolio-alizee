@@ -37,7 +37,7 @@ const home = {
     title: `Portfolio de ${person.name}`,
     description: `Site web de portfolio présentant mon profil d'${person.role}`,
     headline: <>Étudiante en communication / <br /> Future Chargée de Communication</>,
-    subline: <>Je suis Alizée, une étudiante curieuse, dynamique et créative en dernière année de licence Information et Communication.<br /> À la recherche d'une alternance en communication pour la rentrée 2026, j'ai à cœur de participer activement aux projets et d'apporter des idées nouvelles au sein d'une équipe.</>
+    subline: <>Je suis Alizée, une étudiante curieuse, dynamique et créative, fraîchement diplômée d'une licence Information et Communication.<br /> À la recherche d'une alternance en communication pour la rentrée 2026, j'ai à cœur de participer activement aux projets et d'apporter des idées nouvelles au sein d'une équipe.</>
 }
 
 const about = {
@@ -64,7 +64,7 @@ const about = {
                 <span style={{ fontSize: '1.1rem', fontWeight: '500', display: 'block', marginBottom: '8px', color: 'var(--neutral-weak)' }}>
                     Future communicante & alternante passionnée
                 </span>
-                Dès la rentrée 2026, je rejoins les bancs de Sup de Com pour un cursus de deux ans. Pour accompagner cette formation, je suis à la recherche d'une opportunité en alternance dans le secteur de la communication et de l'événementiel, selon un rythme idéal de <strong>2 semaines en entreprise pour 1 semaine à l'école</strong>.
+                Dès la rentrée 2026, je rejoins les bancs de l'EFAP pour un cursus de deux ans. Pour accompagner cette formation, je suis à la recherche d'une opportunité en alternance dans le secteur de la communication et de l'événementiel, selon un rythme idéal de <strong>3 semaines en entreprise pour 1 semaine à l'école</strong>.
             </span>
             <span>
                 <strong style={{ display: 'block', marginBottom: '4px' }}>Ma vision & Ce que j'apporte</strong>
@@ -121,7 +121,7 @@ const about = {
         title: 'Formation',
         institutions: [
             {
-                name: 'Sup de Com',
+                name: 'EFAP',
                 description: <>Mastère manager de la communication (Rentrée 2026)</>,
             },
             {
